@@ -1,6 +1,6 @@
 ## Tree-Based Methods: Prediction of Song Genre Based on Audio Features
 
-The data originates from Spotify. It contains seven genres:
+The data is from Spotify. It contains seven genres:
 1. Classical
 2. Country
 3. Hip Hop
