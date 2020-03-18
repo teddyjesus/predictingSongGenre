@@ -9,7 +9,7 @@ The data is from Spotify. It contains seven genres:
 6. Rock
 7. Reggae
 
-There are nine audio features I initially fitted in my tree, some of which were dropped after pruning:
+Nine audio features were initially fitted in my tree, some of which were dropped after pruning:
 1. Energy
 2. Danceability
 3. Acousticness
