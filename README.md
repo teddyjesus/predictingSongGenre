@@ -26,4 +26,6 @@ My classification tree has an accuracy of 58% without varying any parameters. Th
 
 ![](finalDecisionTree.png)
 
+Precision and recall scores can be found in *predictingSongGenre.ipynb*. In particular, the model performs poorly in correctly predicting country music.
+
 
