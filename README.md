@@ -1,10 +1,6 @@
-# Using Audio Features to Predict Song Genre Through Tree-Based Methods
+# Tree-Based Methods: Prediction of Song Genre Based on Audio Features
 
-Multi-Class Outcome: Genre
-- a
-- a
-
-Features:
+Audio Features
 1. Energy
 2. Danceability
 3. Acousticness
@@ -12,15 +8,22 @@ Features:
 5. Loudness
 6. Valence
 7. Speechiness
-8. 
-9.
+8. Tempo
+9. Liveness
+
+There are seven genres in the data:
+1. Classical
+2. Country
+3. Hip Hop
+4. Jazz
+5. Pop
+6. Rock
+7. Reggae
 
 
-
-My outcome
-
-
-My classification tree has an accuracy of 58% without varying any parameters. The accuracy increased to  64% following cost-complexicity pruning. However, the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting, the accuracy went down to 57% but is now 
+My classification tree has an accuracy of 58% without varying any parameters. The accuracy increased to  64% following cost-complexicity pruning. However, the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting, the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
 
 
 ![](finalDecisionTree.png)
+
+
