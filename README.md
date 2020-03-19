@@ -12,7 +12,7 @@ The data consists of 3900+ songs among nine genres:
 8. Reggae
 9. Rock
 
-During preprocessing, I removed gaming music and coded Pop & K-pop as one genre. Nine features were initially incorporated in the model, some of which were dropped after pruning:
+During preprocessing, I removed gaming music and coded Pop & K-pop as one genre. Nine features were initially fittedin the model, some of which were dropped after pruning:
 1. Energy
 2. Danceability
 3. Acousticness
