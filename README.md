@@ -42,3 +42,5 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 #### Model 2: Bagged Classification Tree
 
 Bagging improved model accuracy to 71%. 
+
+#### Model 3: Extreme Gradient Boosted Classification Tree
