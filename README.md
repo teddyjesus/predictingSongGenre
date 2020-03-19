@@ -20,10 +20,16 @@ Nine audio features were initially fitted in my tree, some of which were dropped
 8. Tempo
 9. Liveness
 
-My classification tree has an accuracy of 58% without varying any parameters. The accuracy increased to  64% following cost-complexicity pruning. However, the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting, the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
+My classification tree has an accuracy of 58% without varying any parameters. Recall from my *notes.ipynb* that a decision tree's prediction accuracy and interpretability are influenced by two factors:
+- adjusting different **stopping criterions**
+- **pruning** (i.e., cost-complexity pruning)
+
+Model accuracy increased to 64% following cost-complexicity pruning. However, the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting, the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
 
 ![](finalDecisionTree.png)
 
 Precision and recall scores can be found in *Tree.ipynb*. In particular, the model performs poorly in correctly predicting country music.
 
-Note to self: *PyDotPlus* and *GraphViz* visualize the decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
+Note: *PyDotPlus* and *GraphViz* visualize the decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
+
+
