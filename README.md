@@ -37,7 +37,7 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 ![](finalDecisionTree.png)
 
-Precision and recall scores can be found in *Tree.ipynb*. The model performs poorly in correctly predicting country music.
+Precision and recall scores can be found in *Tree.ipynb*. The model performs poorly in predicting country music.
 
 *PyDotPlus* and *GraphViz* visualize the decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
 
