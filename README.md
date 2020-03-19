@@ -27,7 +27,7 @@ For more information on these metrics, see:
 
 https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
-*PyDotPlus* and *GraphViz* visualize decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
+*PyDotPlus* and *GraphViz* visualize decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the following error: "GraphViz's executables not found."
 
 #### Model 1: Classification Tree
 
