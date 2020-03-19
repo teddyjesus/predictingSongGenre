@@ -39,8 +39,6 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 ![](finalDecisionTree.png)
 
-Precision and recall scores can be found in *Tree.ipynb*. The classification tree particularly performs poorly in predicting country music.
-
 #### Model 2: Bagged Classification Tree
 
 
