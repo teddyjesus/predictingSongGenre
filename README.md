@@ -27,9 +27,11 @@ For more information on these metrics, see:
 
 https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
-#### Model
+*PyDotPlus* and *GraphViz* visualize the decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
 
-The baseline classification tree has an accuracy of 58%. Recall from my *notes.ipynb* that a decision tree's prediction accuracy and interpretability are influenced by two factors:
+#### Model 1: Classification Tree
+
+The baseline tree has an accuracy of 58%. Recall from my *notes.ipynb* that a decision tree's prediction accuracy and interpretability are influenced by two factors:
 - adjusting different **stopping criterions**
 - **pruning** (i.e., cost-complexity pruning)
 
@@ -37,8 +39,8 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 ![](finalDecisionTree.png)
 
-Precision and recall scores can be found in *Tree.ipynb*. The model performs poorly in predicting country music.
+Precision and recall scores can be found in *Tree.ipynb*. The classification tree particularly performs poorly in predicting country music.
 
-*PyDotPlus* and *GraphViz* visualize the decision trees. GraphViz must be added to the computer's PATH environment variable, or else Python will return the error: "GraphViz's executables not found."
+#### Model 2: Bagged Classification Tree
 
 
