@@ -39,7 +39,7 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 ![](finalDecisionTree.png)
 
-#### Model 2:  Random Forest (still in progress as of March 26, 2020; currently at an accuracy of 72%)
+#### Model 2:  Random Forest
 
 By creating multiple classification trees from bootstrapped training sets, predictions are made through majority votes taken among the resulting trees. This approach increased accuracy to 72% at the cost of a complete loss of interpretability.
 
