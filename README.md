@@ -31,11 +31,7 @@ https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-f
 
 #### Model 1: Classification Tree
 
-The "baseline" tree has an accuracy of 58%. Recall from my *notes.ipynb* that a decision tree are influenced by two factors:
-- stopping criterions
-- pruning
-
-In that regard, model accuracy increased to 64% following cost-complexicity pruning; but the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting (a stopping criterion), the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
+Without pruning or adjustment of any stopping criterions, the "baseline" tree has an accuracy of 58%. In that regard, model accuracy increased to 64% following cost-complexicity pruning; but the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting (a stopping criterion), the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
 
 ![](finalDecisionTree.png)
 
