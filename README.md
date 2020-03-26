@@ -1,4 +1,4 @@
-### Tree-Based Methods for Predicting Song Genre From Audio Features
+### Tree-Based Methods for Predicting the Genre of a Song Based on its Audio Features
 
 #### Data
 The data consists of 3900+ songs among nine genres:
