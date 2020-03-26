@@ -39,8 +39,10 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 ![](finalDecisionTree.png)
 
-#### Model 2:  Random Forest
+#### Model 2:  Random Forest (still in progress as of March 26, 2020; currently at an accuracy of 72%)
 
 By creating multiple classification trees from bootstrapped training sets, predictions are made through majority votes taken among the resulting trees. This approach increased accuracy to 72% at the cost of a complete loss of interpretability.
 
 
+#### Which model is more insightful?
+It's simply a fact that genres of music are not independent of each other (that's a good thing). Although the random forest has a higher accuracy, the decision tree is more insightful by virtue of interpretability. This is not always the case, so I nonetheless taught myself how random forests work.
