@@ -41,6 +41,6 @@ In that regard, model accuracy increased to 64% following cost-complexicity prun
 
 #### Model 2:  Random Forest
 
-By creating multiple classification trees from bootstrapped training sets, predictions are made through majority votes taken among the resulting trees. This approach increased model accuracy to 72% at the cost of the complete loss of interpretability.
+By creating multiple classification trees from bootstrapped training sets, predictions are made through majority votes taken among the resulting trees. This approach increased accuracy to 72% at the cost of a complete loss of interpretability.
 
 
