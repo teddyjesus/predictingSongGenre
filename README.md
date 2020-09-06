@@ -1,4 +1,4 @@
-## Tree-Based Methods for Predicting the Genre of a Song Based on its Audio Features
+## Tree-Based Methods for Predicting the Genre of a Song Based on Audio Features
 
 ### Data
 The data consists of 3900+ songs among nine genres:
@@ -33,11 +33,11 @@ https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-f
 
 Without pruning or adjustment of any stopping criterions, the "baseline" tree has an accuracy of 58%. In that regard, model accuracy increased to 64% following cost-complexicity pruning; but the tree was still too complex. After adjusting the minimum decrease in impurity before node splitting (a stopping criterion), the tree becomes interpretable at the cost of a decrease in accuracy (64% down to 57%):
 
-![](finalDecisionTree.png)
+![](final_decision_tree.png)
 
-#### Model 2:  Random Forests
+#### Model 2:  Random Forest
 
 By creating multiple classification trees from bootstrapped training sets, predictions are made through majority votes taken among the resulting trees. At each split, a random subset of the nine features are randomly considered. This approach increased accuracy to 71% at the cost of a complete loss of interpretability. 
 
 #### Which model is more insightful?
-It's simply a fact that genres of music are not independent of each other (that's a good thing). Although the random forest is more accurate, the decision tree has more value by virtue of interpretability. This is not always the case, so I nonetheless taught myself how to implement random forests.
+It's simply a fact that genres of music are not exactly independent of each other. Although the random forest is more accurate, the decision tree has more value by virtue of interpretability. This is not always the case, so I nonetheless learned how to implement random forests.
