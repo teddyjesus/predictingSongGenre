@@ -29,4 +29,4 @@ By creating multiple classification trees from bootstrapped training sets, predi
 ### Which model is more insightful?
 It's simply a fact that genres of music are not necessarily independent of each other. Although the random forest is more accurate, the decision tree has more value by virtue of interpretability. This is not always the case, so I nonetheless learned how to implement random forests. The notes folder contains the notes I took from *An Introduction to Statistical Learning with Applications in R* to properly use tree-based methods for making predictions.  However, note that my models were created in Python instead of R. 
 
-Reminder: The libraries *PyDotPlus* and *GraphViz* visualize decision trees. *GraphViz* must be added to the computer's PATH environment variable, or else Python will return the following error: "GraphViz's executables not found."
+Note: *GraphViz* was used to visualize decision trees, which must be added to your device's PATH environment variable. Otherwise, Python will return the following error: "GraphViz's executables not found."
