@@ -12,7 +12,7 @@ The data in this repository consists of 3900+ songs from Spotify among nine genr
 8. Tempo
 9. Liveness
 
-I optimized two tree-based models to predict the genre of a song based on their audio features. If you would like to learn more about the aforementioned metrics, please go to
+Based on these audio features, I optimized two tree-based models to predict the genre of a song. If you would like to learn more about the aforementioned metrics, please go to
 
 https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/
 
